@@ -1,0 +1,21 @@
+program MencariNilaiTerbesar;
+uses crt;
+var
+aldi,aldii,aldiii:integer;
+begin
+writeln('mencari nilai paling besar');
+writeln ('tuliskan nilainya :'); 
+write ('nilai pertama :'); readln (aldi);
+write ('nilai Kedua :'); readln (aldii);
+write ('nilai Ketiga :'); readln (aldiii);
+
+if (aldi>aldii) and (aldi>aldiii) then
+write ('maka nilai paling besar=',aldi)
+else
+if (aldii>aldi) and (aldii>aldiii) then
+write ('maka nilai paling besar=',aldii)
+else
+if (aldiii>aldi) and (aldiii>aldii) then
+write ('maka nilai paling besar=',aldiii);
+readkey;
+end.
