@@ -1,0 +1,24 @@
+program MencariNilaiMaksimum;
+uses crt;
+var
+a,l,d,i:integer;
+begin
+writeln ('Mencari Nilai paling besar :');
+writeln ('masukan nilainya');
+write ('Nilai Pertama :'); readln (a);
+write ('Nilai kedua :'); readln (l);
+write ('Nilai Ketiga :'); readln (d);
+write ('Nilai Keempat :'); readln (i);
+if (a>l) and (a>d) and (a>i) then
+write ('maka nilai paling besar=' , a)
+else
+if (l>a) and (l>d) and (l>i) then
+write ('maka nilai paling besar=' , l)
+else
+if (d>a) and (d>l) and (d>i) then
+write ('maka nilai paling besar=' , d)
+else
+if (i>a) and (i>l) and (i>d) then
+write ('maka nilai paling besar=' , i);
+readkey;
+end.
