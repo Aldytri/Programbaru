@@ -1,0 +1,6 @@
+dari koding tugas 2 nomor 1
+akan menghasilkan nilai mutu
+yang berasal dari absen,tugas,quiz,uts,dan uas
+jika nilai semua aspek tersebut digabung maka akan menghasilkan
+nilai mutu. misal jika dari semua aspek mendapat nilai rata rata 90 maka nilai mutu akan
+muncul dengan nilai a dan seterusnya.
