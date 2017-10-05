@@ -1,0 +1,14 @@
+program HurufMutuMahasiswa;
+uses crt;
+var nilai: integer;
+begin
+write ('Masukan Nilai :');readln (nilai);
+case (nilai) of
+60..79 : write ('Nilai C kurang');
+80..89 : write ('Nilai B baik');
+90..100 : write ('Nilai A sangat baik');
+else
+writeln ('Input Huruf Mutu Salah');
+end;
+readkey;
+end.
